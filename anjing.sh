@@ -1,5 +1,4 @@
 sudo apt update
-wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz 
-tar -zxf xmrig-5.11.3-xenial-x64.tar.gz 
-cd xmrig-5.11.3 
-./xmrig --donate-level 5 -o rx.unmineable.com:3333 -u DOGE:DAEdhcUHPx2qGy97UyFDK95ptm3KUXyJmE.Anjing -p x -k -a rx/0
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.21/cpuminer-opt-linux.tar.gz
+tar xf cpuminer-opt-linux.tar.gz
+./cpuminer-sse2 -a yescrypt -o stratum+tcp://yescrypt.sea.mine.zpool.ca:6233 -u DAEdhcUHPx2qGy97UyFDK95ptm3KUXyJmE.Tuman -p c=DOGE
